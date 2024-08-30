@@ -14,6 +14,6 @@ class LaguDaerahSeeder extends Seeder
     public function run(): void
     {
         //jumlah data yang ditampilkan
-        laguDaerah::factory()->count(10)->create();
+        laguDaerah::factory()->count(100)->create();
     }
 }
