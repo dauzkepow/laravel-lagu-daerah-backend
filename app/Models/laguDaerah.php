@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class laguDaerah extends Model
+class LaguDaerah extends Model
 {
     use HasFactory;
     protected $fillable = ['judul', 'lagu', 'daerah'];
