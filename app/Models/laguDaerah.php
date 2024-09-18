@@ -11,3 +11,5 @@ class LaguDaerah extends Model
     protected $fillable = ['judul', 'lagu', 'daerah'];
 
 }
+
+//data model LaguDaerah.php
